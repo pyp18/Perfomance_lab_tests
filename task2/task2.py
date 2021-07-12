@@ -6,7 +6,7 @@ import argparse
 
 def solve_quad_eq(a, b, c):
     d = b ** 2 - 4 * a * c
-
+    roots = None
     if d == 0:
         x = (-b+math.sqrt(b**2-4*a*c))/2*a
         roots = (x,)
